@@ -33,16 +33,10 @@ android {
                 minifyEnabled true
                 proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
                buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/MedicalRep_DCR_1_0_10/api/\"'
-              //  buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/MR_COORDI/api/\"'
                 buildConfigField "String", "API_TOKEN_ID", '\"5050\"'
             }
             debug {
-                // buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/MedicalRep_DCR_1_0_10/api/\"'
-              //  buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/ MedicalRep_DCR_Dev/api/\"'
-
-
                 buildConfigField "String", "API_BASE_URL", '\"http://220.247.244.22:8082/MedicalRep_DCR_Dev/api/\"'
-
                 buildConfigField "String", "API_TOKEN_ID", '\"5050\"'
 
             }
