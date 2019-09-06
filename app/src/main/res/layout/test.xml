@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegular
+            android:id="@+id/text_name_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:enabled="false"
+            android:text="Doctor Name "
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegularEdittext
+            android:id="@+id/edittext_name"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/text_name_hint"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/color_edittext_background"
+            android:ems="10"
+            android:hint="Doctor Name *"
+            android:inputType="textPersonName"
+            android:textColor="#2b2b2b"
+            android:textColorHint="#ababab"
+            android:textSize="17sp" />
+
+
+        <View
+            android:id="@+id/divider_name"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/edittext_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/colorAccent" />
+
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegular
+            android:id="@+id/text_contatct_number_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_name"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:text="Contact Number"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegularEdittext
+            android:id="@+id/edittext_contatct_number"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/text_contatct_number_hint"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/color_edittext_background"
+            android:ems="10"
+            android:hint="Contact Number "
+            android:inputType="phone"
+            android:textColor="#2b2b2b"
+            android:textColorHint="#ababab"
+            android:textSize="17sp" />
+
+
+        <View
+            android:id="@+id/divider_contatct_number"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/edittext_contatct_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/colorAccent" />
+
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegular
+            android:id="@+id/text_reg_number_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_contatct_number"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:text="Registration Number"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegularEdittext
+            android:id="@+id/edittext_reg_number"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/text_reg_number_hint"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/color_edittext_background"
+            android:ems="10"
+            android:hint="Registration Number "
+            android:inputType="textPersonName"
+            android:textColor="#2b2b2b"
+            android:textColorHint="#ababab"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/divider_reg_number"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/edittext_reg_number"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/colorAccent" />
+
+
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegular
+            android:id="@+id/text_qualification_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_reg_number"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:hint="Qualification"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:visibility="invisible" />
+
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegularEdittext
+            android:id="@+id/edittext_qualification"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/text_qualification_hint"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/color_edittext_background"
+            android:ems="10"
+            android:hint="Qualification "
+            android:inputType="textPersonName"
+            android:textColor="#2b2b2b"
+            android:textColorHint="#ababab"
+            android:textSize="17sp" />
+
+        <View
+            android:id="@+id/divider_qualification"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/edittext_qualification"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@color/colorAccent" />
+
+        <emerge.project.mrsolution.ui.fonts.MontserratMedium
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/divider_qualification"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"
+            android:text="SPECIALTIES"
+            />
+
+        <RelativeLayout
+            android:id="@+id/relativelayout_spec_serch"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/textView10"
+            android:layout_marginLeft="40dp"
+            android:layout_height="45dp">
+
+            <emerge.project.mrsolution.ui.fonts.MontserratMedium
+                android:id="@+id/montserratMedium222"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="Spec"
+                android:textColor="@color/colorPrimaryDark" />
+
+
+            <ImageView
+                android:id="@+id/imageView_spec_search"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:src="@drawable/ic_search_black" />
+
+            <emerge.project.mrsolution.ui.fonts.MontserratRegularAutoComlete
+                android:id="@+id/autoCompleteTextView_spec"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toStartOf="@+id/imageView_spec_search"
+                android:layout_toLeftOf="@+id/imageView_spec_search"
+                android:layout_toEndOf="@+id/montserratMedium222"
+                android:layout_toRightOf="@+id/montserratMedium222"
+                android:hint="Search Spec"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/colorHint"
+                android:textSize="14sp"
+                android:visibility="visible" />
+        </RelativeLayout>
+
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView_spec"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/relativelayout_spec_serch"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:visibility="visible" />
+
+
+
+        <emerge.project.mrsolution.ui.fonts.MontserratRegularButton
+            android:id="@+id/btn_adddoc"
+            android:layout_below="@+id/recyclerView_spec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@drawable/bg_selector_gold"
+            android:text="ADD DOCTOR" />
+
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
