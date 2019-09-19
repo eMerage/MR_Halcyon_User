@@ -77,7 +77,7 @@ public interface ApiInterface {
     Observable<Boolean> saveVisitImage(@Body JsonObject visitImage);
 
 
-    @GET("LocationType/GetAllLocationType")
+    @GET("LocationType/GetAllLocationTypes")
     Observable<ArrayList<LocationType>> getAllLocationTypes(@Query("TokenID") String tokenID);
 
 }
